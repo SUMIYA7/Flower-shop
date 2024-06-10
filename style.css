@@ -1,0 +1,83 @@
+header {
+width: 100%;
+height: 500px;
+background-color: whitesmoke;
+display: flex;
+justify-content: center;  /* Center horizontally */
+align-items: center;      /* Center vertically */
+
+}
+main{
+    
+    width: 100%;
+}
+.featured{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    padding-top: 40px;
+}
+.flower-tree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+}
+.img-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0px 20px 0px;
+    background-color: lightgray;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.flower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 240px;
+    margin-left: 220px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.sale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 20px 0px 20px 0px;
+    gap: 50px;
+}
+.deals{
+    background-image: url(FlowerImages/Rectangle\ 9.png);
+    margin-right: 220px;
+    margin-left: 200px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+
+
+footer {
+ background-color: black;
+ text-align: center;
+ width: 100%;
+ height: 300px;
+ padding-top: 40px;
+}
